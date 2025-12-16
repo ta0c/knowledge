@@ -249,7 +249,7 @@
           <mxGeometry height="80" width="50" x="400" y="450" as="geometry" />
         </mxCell>
         <mxCell id="5fmG7ExG9qlRyZc9Cm7E-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Phase 3: Completely deprecate Enterprise and Pro, C++ code refactoring" vertex="1">
-          <mxGeometry height="30" width="510" x="30" y="1060" as="geometry" />
+          <mxGeometry height="30" width="510" x="20" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="5fmG7ExG9qlRyZc9Cm7E-79" edge="1" parent="1" source="5fmG7ExG9qlRyZc9Cm7E-110" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="5fmG7ExG9qlRyZc9Cm7E-90">
           <mxGeometry relative="1" as="geometry" />
