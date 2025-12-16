@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Page-1" id="RVI_K4kqa9DbDPla8bPi">
+    <mxGraphModel dx="1019" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C8MBgGjakGuPceNsRDHp-11" edge="1" parent="1" source="C8MBgGjakGuPceNsRDHp-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="C8MBgGjakGuPceNsRDHp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-17" connectable="0" parent="C8MBgGjakGuPceNsRDHp-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="10s of calls&lt;br&gt;per action" vertex="1">
+          <mxGeometry relative="1" x="-0.0471" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-18" connectable="0" parent="C8MBgGjakGuPceNsRDHp-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="0.1385" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sales Thick Client&lt;div&gt;- display and&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;biz logic mixed&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- create pricer state&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-14" edge="1" parent="1" source="C8MBgGjakGuPceNsRDHp-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="C8MBgGjakGuPceNsRDHp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka Message Bus" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="C++ Pricing Logic&lt;div&gt;- pricing state&lt;/div&gt;&lt;div&gt;- number of pricing logic = number of Sales user&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="470" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-12" edge="1" parent="1" source="C8MBgGjakGuPceNsRDHp-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="C8MBgGjakGuPceNsRDHp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-16" connectable="0" parent="C8MBgGjakGuPceNsRDHp-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20value%3D%22Sales%26lt%3Bdiv%26gt%3B-%20display%20and%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20transparent%3B%20color%3A%20light-dark(rgb(0%2C%200%2C%200)%2C%20rgb(255%2C%20255%2C%20255))%3B%26quot%3B%26gt%3B%26amp%3Bnbsp%3Bbiz%20logic%20mixed%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2260%22%20width%3D%22120%22%20x%3D%22120%22%20y%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;Every action&lt;br&gt;requires a call" vertex="1">
+          <mxGeometry relative="1" x="-0.1765" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FENICS Direct&lt;div&gt;- display logic using GWT&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-13" edge="1" parent="1" source="C8MBgGjakGuPceNsRDHp-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="C8MBgGjakGuPceNsRDHp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Enterprise&lt;div&gt;- biz logic&lt;/div&gt;&lt;div&gt;- create a pricer state per user&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="C++ Pricing Logic&lt;div&gt;- pricing state&lt;/div&gt;&lt;div&gt;- each pricing state can support&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="C8MBgGjakGuPceNsRDHp-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Enterprise" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
