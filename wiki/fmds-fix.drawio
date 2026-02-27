@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="3MKN1bbimPm6EHQsx-ru">
+    <mxGraphModel dx="1500" dy="1095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8AssWXdfsekeDwYWqEce-9" edge="1" parent="1" source="8AssWXdfsekeDwYWqEce-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8AssWXdfsekeDwYWqEce-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-18" edge="1" parent="1" source="8AssWXdfsekeDwYWqEce-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8AssWXdfsekeDwYWqEce-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="XCloud&lt;div&gt;BGC Enterprise Message Bus&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-8" edge="1" parent="1" source="8AssWXdfsekeDwYWqEce-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8AssWXdfsekeDwYWqEce-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FMDS&amp;nbsp;&lt;br&gt;our market data publisher" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-7" edge="1" parent="1" source="8AssWXdfsekeDwYWqEce-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8AssWXdfsekeDwYWqEce-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Enterprise on client side" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-10" edge="1" parent="1" source="8AssWXdfsekeDwYWqEce-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8AssWXdfsekeDwYWqEce-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="190" as="sourcePoint" />
+            <mxPoint x="400" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-11" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.cloud;network2IconYOffset=-0.08;network2IconW=1.0004;network2IconH=0.7222;" value="" vertex="1">
+          <mxGeometry height="36.11" width="50.019999999999996" x="274.99" y="165.945" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-15" edge="1" parent="1" source="8AssWXdfsekeDwYWqEce-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8AssWXdfsekeDwYWqEce-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FMDS&amp;nbsp;&lt;br&gt;our market data publisher" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FMD Fix Server" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-16" edge="1" parent="1" source="8AssWXdfsekeDwYWqEce-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8AssWXdfsekeDwYWqEce-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="440" as="sourcePoint" />
+            <mxPoint x="620" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-19" edge="1" parent="1" source="8AssWXdfsekeDwYWqEce-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8AssWXdfsekeDwYWqEce-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-20" edge="1" parent="1" source="8AssWXdfsekeDwYWqEce-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8AssWXdfsekeDwYWqEce-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="340" as="sourcePoint" />
+            <mxPoint x="460" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-13" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.cloud;network2IconYOffset=-0.08;network2IconW=1.0004;network2IconH=0.7222;" value="" vertex="1">
+          <mxGeometry height="36.11" width="50.019999999999996" x="540" y="373.89" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="XCloudSubscriberImpl&lt;br&gt;hook for incoming msg and it will write to CacheAccess cache" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8AssWXdfsekeDwYWqEce-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FixAdaptor&lt;br&gt;hook for incoming msg and it will write to CacheAccess cache" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
